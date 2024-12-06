@@ -54,4 +54,4 @@ To run this project on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/the-bsx/blogap_in_php.git
+   git clone https://github.com/the-bsx/blogapp_in_php.git
