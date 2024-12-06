@@ -52,6 +52,6 @@ The **PHP Blog Web App** is a simple, user-friendly platform that allows users t
 
 To run this project on your local machine, follow these steps:
 
-1. Clone the repository:
+ Clone the repository:
    ```bash
    git clone https://github.com/the-bsx/blogapp_in_php.git
