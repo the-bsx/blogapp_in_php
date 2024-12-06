@@ -1,0 +1,272 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Navigation Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Blog Listing Styles */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+ul li h3 {
+    margin: 0 0 10px;
+}
+
+ul li p {
+    margin: 0 0 5px;
+    color: #555;
+}
+
+ul li small {
+    color: #777;
+}
+
+/* Buttons for CRUD Actions */
+ul li a {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Center Content */
+.center {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+/* this is  */
+
+/* General Blog Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header and Titles */
+h1, h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Blog List Styles */
+.blog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.blog-list li {
+    background: #f4f4f4;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.blog-list li:hover {
+    background: #e9ecef;
+}
+
+.blog-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.blog-title:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.blog-meta {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.blog-content {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Action Buttons */
+.action-buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.action-buttons .edit {
+    background-color: #ffc107;
+}
+
+.action-buttons .edit:hover {
+    background-color: #e0a800;
+}
+
+.action-buttons .delete {
+    background-color: #dc3545;
+}
+
+.action-buttons .delete:hover {
+    background-color: #c82333;
+}
+
+/* Form for Adding Blogs */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
