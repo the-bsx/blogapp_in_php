@@ -16,8 +16,8 @@ if(isset($_POST['submit'])){
         echo "Error: " . $sql . "<br>" . $connection->error;
     }
     }
-
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,6 +36,7 @@ if(isset($_POST['submit'])){
         <label>Email</label>
         <input type="email" name="email" required>
         <br>
+        
         <label>Password</label>
         <input type="password" name="password" required>
         <br>
